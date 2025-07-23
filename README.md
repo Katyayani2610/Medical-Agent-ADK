@@ -4,11 +4,6 @@
 
 The Medical Agent is a sophisticated AI-powered healthcare analysis system designed to provide in-depth medical insights and support through specialized sub-agents. Each sub-agent focuses on a distinct medical domain to deliver comprehensive and nuanced information, aiding in preliminary understanding and research.
 
-## Demo
-
-Demo: <https://www.youtube.com/watch?v=I0Q0vPWSGPo>
-
-
 ## Agent Details
 
 | Attribute        | Detail                                                    |
@@ -58,15 +53,15 @@ Each sub-agent leverages specific tools to perform its analysis:
 | Main-Agent               | Description                                                                                 |
 |--------------------------|---------------------------------------------------------------------------------------------|
 | Medical Agent            | Interacts with the user and conveys the prompt to the Sub Agent Coordinator                 |
-| Sub Agent Coordinator    | Coordinates all the Sub Agents and delegate the prompt based on Sub Agent specialization    |
+| Sub Agent Coordinator    | Coordinates all the Sub Agents and delegates the prompt based on Sub Agent specialization    |
 
-All sub-agents use the `gemini-2.0-flash` model for LLM-based reasoning .
+All sub-agents use the `gemini-2.0-flash` model for LLM-based reasoning.
 
 ## Key Features
 
 - Modular, multi-agent design for specialized medical analysis across various domains.
 
-- Each sub-agent focuses on a distinct medical discipline (Cardiology, Dermatology, Neurology, Orthology, Psychiatry, Pediatrics, General Medicine).
+- Each sub-agent focuses on a distinct medical discipline (Cardiology, Dermatology, Neurology, Orthopedics, Psychiatry, Pediatrics, General Medicine).
 
 - Provides comprehensive overviews or preliminary research insights based on user queries.
 
@@ -98,7 +93,7 @@ gcloud services enable aiplatform.googleapis.com
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/mat-joe-the-geek/ADK-Medical-Agent.git
+    git clone https://github.com/Katyayani2610/Medical-Agent-ADK.git
     ```
 
 2. Create and activate a Python virtual environment:
@@ -114,7 +109,7 @@ gcloud services enable aiplatform.googleapis.com
     source ./.venv/bin/activate
     ```
 
-3. Install the dependencies::
+3. Install the dependencies:
     ```bash
     pip install -r requirements.txt
     ```
@@ -137,7 +132,7 @@ adk web
 ```
 Open http://localhost:8000/ on your browser
 
-Select your agent : 'medical_agent'
+Select your agent: 'medical_agent'
 
 ## Legal Disclaimer
 
@@ -145,8 +140,8 @@ Select your agent : 'medical_agent'
 
 The information and analysis provided by this AI tool are for educational and informational purposes only. They do not constitute, and should not be interpreted as, medical advice, diagnosis, treatment recommendations, or a substitute for professional medical consultation.
 
-Always seek the advice of a qualified healthcare professional for any questions you may have regarding a medical condition. Do not disregard professional medical advice or delay in seeking it because of information you have obtained from this tool.
+Always consult a qualified healthcare professional for any questions you may have about a medical condition. Please don't ignore professional medical advice or delay seeking it because of information obtained from this tool.
 
-The AI model may provide information that is not exhaustive, completely accurate, or up-to-date. Medical knowledge evolves rapidly, and individual cases vary significantly. You should conduct your own thorough research and consult with licensed medical professionals before making any healthcare decisions.
+The AI model may provide information that is not exhaustive, completely accurate, or up-to-date. Medical knowledge evolves rapidly, and individual cases vary significantly. You should conduct your thorough research and consult with licensed medical professionals before making any healthcare decisions.
 
 By using this tool, you acknowledge that you understand this disclaimer and agree that the developers are not liable for any losses, damages, or adverse outcomes arising from your use of or reliance on this information.
